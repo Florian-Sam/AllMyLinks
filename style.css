@@ -4,10 +4,6 @@
     margin: 0;
     padding: 0;
 }
-/* background */
-body {
-    background: linear-gradient(45deg, #878787 0%, #6289fe 100%)
-}
 
 /* ----------------- presentation ----------------- */
 
@@ -94,4 +90,13 @@ footer p {
     font-weight: 400;
     font-size: 13px;
     text-decoration: underline;
+}
+
+
+#bg-gif {
+    margin-top: -20px;
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;  
 }
