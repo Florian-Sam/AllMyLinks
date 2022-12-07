@@ -50,7 +50,7 @@ p {
 
 }
 
-button {
+a {
     display: block;
     color: black;
     margin-bottom: 40px;
@@ -64,11 +64,12 @@ button {
     border-radius: 7px;
     padding: 10px;
     background-color: rgba(255, 255, 255, 0.77);
+    text-decoration: none;
     
 }
 
 
-button:hover {
+a:hover {
     background-color: rgba(0, 0, 0, 0.549);
     color: white;
     
