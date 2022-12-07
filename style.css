@@ -5,9 +5,6 @@
     padding: 0;
 }
 
-body {
-    background-color: #333;
-}
 /* ----------------- presentation ----------------- */
 
 .presentation {
@@ -53,19 +50,28 @@ p {
 
 }
 
-h3 {
+button {
     display: block;
-    color: white;
+    color: black;
     margin-bottom: 40px;
     margin-left: auto;
     margin-right: auto;
     cursor: pointer;
     font-weight: 500;
     font-size: 15px;
-    border: 1px solid white;
+    border: 1px solid black;
     width: 150px;
     border-radius: 7px;
     padding: 10px;
+    background-color: rgba(255, 255, 255, 0.77);
+    
+}
+
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.549);
+    color: white;
+    
 }
 
 /*----------------- icons -----------------*/
@@ -82,3 +88,12 @@ footer p {
     text-decoration: underline;
 }
 
+
+#bg-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;  
+}
